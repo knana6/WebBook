@@ -41,8 +41,35 @@
             <option value="female">female</option>
         </optgroup>
     </select>
-    
 
+    <h2>5. option, outgroup 태그</h2>
+    <select name="vacation" id="vacation">
+        <!-- name은 서버에 전송되는 값 -->
+        <!-- id는 himl식별자 (css, javascript 연결) -->
+        <option value="Busan">Busan</option>
+        <option value="Chuncheon">Chuncheon</option>
+        <option value="Jeju">Jeju</option>
+    </select>
+    
+    <select name="a" id="a">
+        <outgroup label="animal">
+            <option value="cat">cat</option>
+            <option value="dog">dog</option>
+        </outgroup>
+        <outgroup label="object">
+            <option value="pencil">pencil</option>
+            <option value="book">book</option>
+        </outgroup>
+    </select>
+    <!-- 기본값은 selected 로 표기 -->
+    <!-- 예) <option value="a" selected>a</option> -->
+
+    <h2>6. Button 태그</h2>
+    <button type="submit">
+        <img src="turtles.png" alt="turtle">
+    </button>
+
+    
 </body>
 </html>
 
