@@ -1,0 +1,33 @@
+/* CSS Rules : 
+선택자{속성:값;} */
+
+/* MDN 참고하기 (css 원래 방대함- 개발자들도 잘모름) */
+
+/* link 태그를 html 에 넣어서 css와 연결하기 */
+
+/* CSS Colors- 
+유명한 색은 검색해서 쓰기 
+RGB 색상: rgb( 0,0,0)= 검정 / 이런 식으로 쓰기. colorpickers 이용
+Hex 색상: 0~9 숫자 + A B C D E F = 
+          # ffff00 (ff-full ,00-zero)
+*/
+h2 {
+    color: indianred;
+    background-color: paleturquoise;
+}
+
+h3{
+    color: papayawhip;
+}
+
+p {
+    color: aquamarine
+}
+
+button {
+    color: yellowgreen;
+    background-color: black;
+}
+body {
+    background-color: #000000;
+}
