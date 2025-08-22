@@ -23,5 +23,5 @@ print((lambda a,b: a+b)(3,7))
 # 즉 map의 첫 번째 인자는 함수 (int, lambda, str.upper, …)
 # 두 번째 이후 인자는 iterable (리스트, 튜플, 문자열, range 등)이 들어가야 해요.
 
-map(int, input().split()) 쓸 때의 int랑,
-map(lambda a,b: a+b, l, ll) 쓸 때의 lambda는 똑같이 함수
+# map(int, input().split()) 쓸 때의 int랑,
+# map(lambda a,b: a+b, l, ll) 쓸 때의 lambda는 똑같이 함수

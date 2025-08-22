@@ -11,3 +11,4 @@ for i in range(1,11):
 print(len(set(c)))
 
 # 왜 range 벗어난 오류가 생김??
+# 리스트 슬라이싱은 0번부터 시작이어서
